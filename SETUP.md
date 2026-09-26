@@ -109,6 +109,16 @@ For a single-file project, you can add a `compile_flags.txt` at the repo root fo
 
 Larger projects usually generate `compile_commands.json` (e.g. via CMake).
 
+## Reusable template
+
+For future projects, copy this setup via:
+
+```bash
+./template/new-project.sh /path/to/new-project
+```
+
+Details: [template/README.md](template/README.md).
+
 ## Troubleshooting
 
 - **`Configured debug type 'lldb' is not supported`** — install the **CodeLLDB** extension (`vadimcn.vscode-lldb`).

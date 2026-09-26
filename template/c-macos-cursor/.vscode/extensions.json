@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "anysphere.cpptools",
+    "vadimcn.vscode-lldb",
+    "ms-vscode.makefile-tools"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.cpptools-extension-pack"
+  ]
+}
