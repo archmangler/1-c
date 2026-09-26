@@ -1,0 +1,15 @@
+# Build artifacts
+main
+*.o
+*.out
+*.dSYM/
+*.exe
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+
+# clangd / compile DB (regenerate locally if needed)
+compile_commands.json
+.cache/
