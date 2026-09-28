@@ -14,6 +14,7 @@ int main(int argc, char *argv[]) {
   char *argument2 = argv[2];
 
   printf("Number of arguments: %d\n", numberOfarguments);
+
   printf("Argument 1: %s\n", argument1);
   printf("Argument 2: %s\n", argument2);
 
